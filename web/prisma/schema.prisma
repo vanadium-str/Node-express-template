@@ -17,3 +17,10 @@ model Session {
   accessToken String
   userId      BigInt?
 }
+
+model Cart {
+  id               Int      @id @default(autoincrement())
+  customerId       String
+  productVariantIds Json
+  createdAt        DateTime @default(now())
+}

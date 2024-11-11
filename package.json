@@ -13,7 +13,9 @@
   },
   "dependencies": {
     "@shopify/app": "^3.50.0",
-    "@shopify/cli": "^3.50.0"
+    "@shopify/cli": "^3.50.0",
+    "@shopify/ui-extensions": "2023.10.0",
+    "@shopify/ui-extensions-react": "2023.10.0"
   },
   "author": "BOA Ideas",
   "devDependencies": {
